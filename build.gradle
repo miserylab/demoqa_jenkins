@@ -40,13 +40,12 @@ tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
 
-
 test {
     useJUnitPlatform()
 }
 
 task remote_test(type: Test) {
-    useJUnitPlatform {
+    useJUnitPlatform{
         includeTags("remote")
     }
 }

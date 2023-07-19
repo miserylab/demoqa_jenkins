@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
 
-public class AutomationPracticeFormTests extends TestBase {
+public class AutomationPracticeFormTests extends RemoteTestBase {
 
     @Test
     @Tag("remote")
